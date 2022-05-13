@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="title">Etch-a-Sketch</div>
+        </header>
+
+        <main>
+            <div class="panel">
+                <div id="button-container"><button id="color-choice"></button></div>
+                <button id="defaultBtn" class="option-button">Default</button>
+                <button id="rainbowBtn" class="option-button">Rainbow</button>
+                <button id="eraserBtn"class="option-button">Eraser</button>
+                <button id="clearBtn" class="option-button">Clear</button>
+                <form>
+                    <div class = sizeText>Enter size from 1 to 64:</div>
+                    <div><input type="text" id="size"></div>
+                    <button class = "confirmBtn" id="confirm">Confirm</button>
+                </form>
+            </div>
+
+            <div id = "grids" class="grids"></div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
