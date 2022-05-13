@@ -54,9 +54,9 @@ main{
 .grids{
     width: 500px;
     height: 500px;
-    background-color: #;
+    background-color: white;
     display: grid;
-    grid-gap: 1px;
+    grid-gap: 3px;
     border: 5px solid #5A236C;
     border-radius: 2px;
 }
@@ -72,15 +72,24 @@ form{
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    text-align: center;
 }
 
-.confirm{
+.confirmBtn{
     border-radius: 3px;
     border: 1px solid var(--primary-dark);
     padding: 3px 0px;
+    width: 80px;
+    background-color: cornflowerblue;
+    color: rgb(205, 239, 248);
 }
 
-.confirm:hover{
+button.active{
+    background-color: rgb(40, 5, 130);
+    color: rgb(255, 133, 255);
+}
+
+.confirmBtn:hover{
     transform: scale(1.03);
 }
 
